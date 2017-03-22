@@ -1,0 +1,28 @@
+2017.02.28 15:06:35.941 [localhost-startStop-1] INFO [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties:172] - Loading properties file from class path resource [config/system.properties]
+2017.02.28 15:06:57.005 [localhost-startStop-1] INFO [org.ibase4j.core.listener.ServerListerner.contextInitialized:16] - =================================
+2017.02.28 15:06:57.005 [localhost-startStop-1] INFO [org.ibase4j.core.listener.ServerListerner.contextInitialized:17] - 系统[iBase4J-Web]启动完成!!!
+2017.02.28 15:06:57.005 [localhost-startStop-1] INFO [org.ibase4j.core.listener.ServerListerner.contextInitialized:18] - =================================
+2017.02.28 15:07:51.563 [http-bio-8088-exec-1] INFO [org.ibase4j.core.filter.CsrfFilter.doFilter:49] - referurl----->http://127.0.0.1/
+2017.02.28 15:07:51.564 [http-bio-8088-exec-1] DEBUG [org.ibase4j.core.filter.XssFilter.doFilter:74] - account==admin
+2017.02.28 15:07:51.564 [http-bio-8088-exec-1] DEBUG [org.ibase4j.core.filter.XssFilter.doFilter:74] - password==111111
+2017.02.28 15:07:52.983 [redisMessageListenerContainer-2] INFO [org.ibase4j.core.listener.SessionListener.sessionDestroyed:45] - 销毁了一个Session连接:[192d9e8d-4641-4488-9e99-155bc2e7deb8]
+2017.02.28 15:07:52.985 [redisMessageListenerContainer-2] INFO [org.ibase4j.core.listener.SessionListener.setAllUserNumber:54] - 用户数：3
+2017.02.28 15:07:55.869 [redisMessageListenerContainer-4] INFO [org.ibase4j.core.listener.SessionListener.sessionCreated:31] - 创建了一个Session连接:[37975b2e-091a-4402-bb0a-c6d808edb9fb]
+2017.02.28 15:07:55.873 [redisMessageListenerContainer-4] INFO [org.ibase4j.core.listener.SessionListener.setAllUserNumber:54] - 用户数：4
+2017.02.28 15:07:56.012 [http-bio-8088-exec-3] INFO [org.ibase4j.core.filter.CsrfFilter.doFilter:49] - referurl----->http://127.0.0.1/
+2017.02.28 15:07:56.034 [redisMessageListenerContainer-5] INFO [org.ibase4j.core.listener.SessionListener.sessionDestroyed:45] - 销毁了一个Session连接:[37975b2e-091a-4402-bb0a-c6d808edb9fb]
+2017.02.28 15:07:56.036 [redisMessageListenerContainer-5] INFO [org.ibase4j.core.listener.SessionListener.setAllUserNumber:54] - 用户数：3
+2017.02.28 15:07:56.039 [redisMessageListenerContainer-6] INFO [org.ibase4j.core.listener.SessionListener.sessionCreated:31] - 创建了一个Session连接:[c6513829-1cd0-4a9e-aa1e-898d294ddb22]
+2017.02.28 15:07:56.041 [redisMessageListenerContainer-6] INFO [org.ibase4j.core.listener.SessionListener.setAllUserNumber:54] - 用户数：4
+2017.02.28 15:07:56.536 [pool-3-thread-1] DEBUG [org.ibase4j.service.sys.SysEventServiceImpl$1.run:73] - 开始时间: 15:07:51.611; 结束时间: 15:07:55.763; 耗时: 4.152s; URI: /login; 
+2017.02.28 15:07:57.853 [pool-3-thread-2] DEBUG [org.ibase4j.service.sys.SysEventServiceImpl$1.run:73] - 开始时间: 15:07:56.014; 结束时间: 15:07:56.024; 耗时: 0.01s; URI: /unauthorized; 
+2017.02.28 15:08:05.126 [http-bio-8088-exec-4] INFO [org.ibase4j.core.filter.CsrfFilter.doFilter:49] - referurl----->http://127.0.0.1/
+2017.02.28 15:08:05.127 [http-bio-8088-exec-4] DEBUG [org.ibase4j.core.filter.XssFilter.doFilter:74] - account==admin
+2017.02.28 15:08:05.127 [http-bio-8088-exec-4] DEBUG [org.ibase4j.core.filter.XssFilter.doFilter:74] - password==111111
+2017.02.28 15:08:05.920 [redisMessageListenerContainer-8] INFO [org.ibase4j.core.listener.SessionListener.sessionDestroyed:45] - 销毁了一个Session连接:[192d9e8d-4641-4488-9e99-155bc2e7deb8]
+2017.02.28 15:08:05.922 [redisMessageListenerContainer-8] INFO [org.ibase4j.core.listener.SessionListener.setAllUserNumber:54] - 用户数：3
+2017.02.28 15:08:06.736 [redisMessageListenerContainer-10] INFO [org.ibase4j.core.listener.SessionListener.sessionCreated:31] - 创建了一个Session连接:[571161d4-0bac-4813-aeba-b91b5b0cca8a]
+2017.02.28 15:08:06.738 [redisMessageListenerContainer-10] INFO [org.ibase4j.core.listener.SessionListener.setAllUserNumber:54] - 用户数：4
+2017.02.28 15:08:06.775 [http-bio-8088-exec-5] INFO [org.ibase4j.core.filter.CsrfFilter.doFilter:49] - referurl----->http://127.0.0.1/
+2017.02.28 15:08:06.833 [http-bio-8088-exec-6] INFO [org.ibase4j.core.filter.CsrfFilter.doFilter:49] - referurl----->http://127.0.0.1/
+2017.02.28 15:08:08.084 [pool-3-thread-2] DEBUG [org.ibase4j.service.sys.SysEventServiceImpl$1.run:73] - 开始时间: 15:08:05.132; 结束时间: 15:08:06.737; 耗时: 1.605s; URI: /login; 

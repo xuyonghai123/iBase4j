@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/iBase4J-Biz-API" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/iBase4J-Biz-Service" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/iBase4J-Biz-Web" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/iBase4J-Common" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/iBase4J-SYS-API" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/iBase4J-SYS-Service" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/iBase4J-Web" vcs="svn" />
+    <mapping directory="F:\Idea-workspace\iBase4J\iBase4J-UI" vcs="Git" />
+  </component>
+</project>

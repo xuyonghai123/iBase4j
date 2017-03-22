@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.springframework.org/schema/beans" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd  
+                        http://www.springframework.org/schema/context  
+                        http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+	<!-- redis连接 -->
+	<bean class="org.ibase4j.core.config.RedissonConfig">
+		<property name="address" value="${redis.host}:${redis.port}" />
+	</bean>
+	<!-- 缓存 -->
+	<bean id="redisCacheManager" class="org.redisson.spring.cache.RedissonSpringCacheManager">
+		<property name="redisson" ref="redissonClient" />
+	</bean>
+	
+	<!-- Jedis线程 -->
+	<bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+		<property name="maxIdle" value="${redis.maxIdle}" />
+		<property name="minIdle" value="${redis.minIdle}" />
+		<property name="maxTotal" value="${redis.maxTotal}" />
+		<property name="testOnBorrow" value="true" />
+	</bean>
+	<bean id="jedisShardInfo" class="redis.clients.jedis.JedisShardInfo">
+		<constructor-arg index="0" value="${redis.host}" />
+		<constructor-arg index="1" value="${redis.port}" type="int" />
+		<!-- <property name="password" value="${redis.password}" /> -->
+	</bean>
+	<!-- Redis连接 -->
+	<bean id="jedisConnectionFactory"
+		class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
+		p:shard-info-ref="jedisShardInfo" p:pool-config-ref="jedisPoolConfig" />
+</beans>

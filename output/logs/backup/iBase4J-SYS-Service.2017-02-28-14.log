@@ -1,0 +1,266 @@
+2017.02.28 14:29:19.952 [localhost-startStop-1] INFO [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties:172] - Loading properties file from class path resource [config/jdbc.properties]
+2017.02.28 14:29:19.955 [localhost-startStop-1] INFO [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties:172] - Loading properties file from class path resource [config/system.properties]
+2017.02.28 14:33:36.973 [localhost-startStop-1] INFO [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties:172] - Loading properties file from class path resource [config/jdbc.properties]
+2017.02.28 14:33:36.975 [localhost-startStop-1] INFO [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties:172] - Loading properties file from class path resource [config/system.properties]
+2017.02.28 14:37:40.207 [localhost-startStop-1] INFO [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties:172] - Loading properties file from class path resource [config/jdbc.properties]
+2017.02.28 14:37:40.209 [localhost-startStop-1] INFO [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties:172] - Loading properties file from class path resource [config/system.properties]
+2017.02.28 14:48:22.149 [localhost-startStop-1] INFO [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties:172] - Loading properties file from class path resource [config/jdbc.properties]
+2017.02.28 14:48:22.151 [localhost-startStop-1] INFO [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties:172] - Loading properties file from class path resource [config/system.properties]
+2017.02.28 14:51:55.817 [localhost-startStop-1] INFO [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties:172] - Loading properties file from class path resource [config/jdbc.properties]
+2017.02.28 14:51:55.825 [localhost-startStop-1] INFO [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties:172] - Loading properties file from class path resource [config/system.properties]
+2017.02.28 14:56:03.980 [localhost-startStop-1] INFO [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties:172] - Loading properties file from class path resource [config/jdbc.properties]
+2017.02.28 14:56:03.981 [localhost-startStop-1] INFO [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties:172] - Loading properties file from class path resource [config/system.properties]
+2017.02.28 14:57:28.494 [localhost-startStop-1] INFO [org.ibase4j.core.support.scheduler.SchedulerManager.afterPropertiesSet:55] - Initing task scheduler[iBase4J-Scheduler] , add listener size ：1
+2017.02.28 14:57:28.494 [localhost-startStop-1] INFO [org.ibase4j.core.support.scheduler.SchedulerManager.afterPropertiesSet:60] - Add JobListener : taskListener
+2017.02.28 14:57:33.962 [localhost-startStop-1] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:35] - org.ibase4j.provider.sys.SysUserProviderImpl.init()
+2017.02.28 14:57:34.234 [localhost-startStop-1] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ FROM sys_user ORDER BY id_ DESC 
+2017.02.28 14:57:34.255 [localhost-startStop-1] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 
+2017.02.28 14:57:34.737 [localhost-startStop-1] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 2
+2017.02.28 14:57:34.741 [localhost-startStop-1] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ AS id,account_ AS account,password_ AS `password`,phone_ AS phone,sex_ AS sex,user_name AS userName,avatar_ AS avatar,user_type AS userType,dept_id AS deptId,locked_ AS locked,enable_ AS `enable`,remark_ AS remark,create_by AS createBy,create_time AS createTime,update_by AS updateBy,update_time AS updateTime FROM sys_user WHERE id_=? 
+2017.02.28 14:57:34.744 [localhost-startStop-1] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 2(Long)
+2017.02.28 14:57:34.871 [localhost-startStop-1] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:57:35.015 [localhost-startStop-1] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ AS id,account_ AS account,password_ AS `password`,phone_ AS phone,sex_ AS sex,user_name AS userName,avatar_ AS avatar,user_type AS userType,dept_id AS deptId,locked_ AS locked,enable_ AS `enable`,remark_ AS remark,create_by AS createBy,create_time AS createTime,update_by AS updateBy,update_time AS updateTime FROM sys_user WHERE id_=? 
+2017.02.28 14:57:35.016 [localhost-startStop-1] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 1(Long)
+2017.02.28 14:57:35.141 [localhost-startStop-1] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:57:35.164 [localhost-startStop-1] INFO [org.ibase4j.core.listener.ServerListerner.contextInitialized:24] - =================================
+2017.02.28 14:57:35.164 [localhost-startStop-1] INFO [org.ibase4j.core.listener.ServerListerner.contextInitialized:25] - 系统[iBase4J-SYS-Service]启动完成!!!
+2017.02.28 14:57:35.164 [localhost-startStop-1] INFO [org.ibase4j.core.listener.ServerListerner.contextInitialized:26] - =================================
+2017.02.28 14:58:14.328 [DubboServerHandler-172.17.246.184:18087-thread-2] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:35] - org.ibase4j.provider.sys.SysUserProviderImpl.encryptPassword(111111)
+2017.02.28 14:58:14.375 [DubboServerHandler-172.17.246.184:18087-thread-3] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:35] - org.ibase4j.provider.sys.SysUserProviderImpl.query({countSql=0, enable=1, account=admin})
+2017.02.28 14:58:14.376 [DubboServerHandler-172.17.246.184:18087-thread-3] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:40] - read
+2017.02.28 14:58:14.674 [DubboServerHandler-172.17.246.184:18087-thread-3] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ FROM sys_user WHERE account_ = ? and enable_ = ? ORDER BY id_ DESC LIMIT 0,10 
+2017.02.28 14:58:14.676 [DubboServerHandler-172.17.246.184:18087-thread-3] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: admin(String), 1(Integer)
+2017.02.28 14:58:14.813 [DubboServerHandler-172.17.246.184:18087-thread-3] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:58:14.868 [DubboServerHandler-172.17.246.184:18087-thread-4] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:35] - org.ibase4j.provider.sys.SysSessionProviderImpl.querySessionIdByAccount(admin)
+2017.02.28 14:58:14.869 [DubboServerHandler-172.17.246.184:18087-thread-4] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:40] - read
+2017.02.28 14:58:14.895 [DubboServerHandler-172.17.246.184:18087-thread-4] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: select session_id from sys_session where account_ = ? 
+2017.02.28 14:58:14.896 [DubboServerHandler-172.17.246.184:18087-thread-4] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: admin(String)
+2017.02.28 14:58:15.034 [DubboServerHandler-172.17.246.184:18087-thread-4] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:58:15.038 [DubboServerHandler-172.17.246.184:18087-thread-5] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:35] - org.ibase4j.provider.sys.SysSessionProviderImpl.deleteBySessionId(9b67a0ac-74b8-4697-b10a-760494a6caa5)
+2017.02.28 14:58:15.038 [DubboServerHandler-172.17.246.184:18087-thread-5] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:40] - write
+2017.02.28 14:58:15.170 [DubboServerHandler-172.17.246.184:18087-thread-5] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: delete from sys_session where session_id=? 
+2017.02.28 14:58:15.172 [DubboServerHandler-172.17.246.184:18087-thread-5] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 9b67a0ac-74b8-4697-b10a-760494a6caa5(String)
+2017.02.28 14:58:15.785 [DubboServerHandler-172.17.246.184:18087-thread-5] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==    Updates: 1
+2017.02.28 14:58:15.931 [DubboServerHandler-172.17.246.184:18087-thread-6] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:35] - org.ibase4j.provider.sys.SysSessionProviderImpl.update(SysSession [Hash = -1912603461, sessionId=192d9e8d-4641-4488-9e99-155bc2e7deb8, account=admin, ip=172.17.246.184, startTime=Tue Feb 28 14:50:09 CST 2017])
+2017.02.28 14:58:15.931 [DubboServerHandler-172.17.246.184:18087-thread-6] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:40] - write
+2017.02.28 14:58:15.938 [DubboServerHandler-172.17.246.184:18087-thread-6] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: select id_ from sys_session where session_id = ? 
+2017.02.28 14:58:15.939 [DubboServerHandler-172.17.246.184:18087-thread-6] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 192d9e8d-4641-4488-9e99-155bc2e7deb8(String)
+2017.02.28 14:58:16.079 [DubboServerHandler-172.17.246.184:18087-thread-6] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 0
+2017.02.28 14:58:17.554 [DubboServerHandler-172.17.246.184:18087-thread-6] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: INSERT INTO sys_session ( id_, session_id, account_, ip_, start_time, create_time, update_time ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2017.02.28 14:58:17.561 [DubboServerHandler-172.17.246.184:18087-thread-6] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 836470562173947904(Long), 192d9e8d-4641-4488-9e99-155bc2e7deb8(String), admin(String), 172.17.246.184(String), 2017-02-28 14:50:09.648(Timestamp), 2017-02-28 14:58:16.08(Timestamp), 2017-02-28 14:58:15.932(Timestamp)
+2017.02.28 14:58:17.804 [DubboServerHandler-172.17.246.184:18087-thread-6] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==    Updates: 1
+2017.02.28 14:58:18.666 [DubboServerHandler-172.17.246.184:18087-thread-7] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: INSERT INTO sys_event ( id_, request_uri, parameters_, method_, client_host, user_agent, status_, enable_, create_by, create_time, update_by, update_time ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2017.02.28 14:58:18.669 [DubboServerHandler-172.17.246.184:18087-thread-7] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 836470566846402560(Long), /login(String), {"account":["admin"],"password":["111111"]}(String), POST(String), 172.17.246.184(String), Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36(String), 200(Integer), true(Boolean), 1(Long), 2017-02-28 14:58:18.661(Timestamp), 1(Long), 2017-02-28 14:58:18.661(Timestamp)
+2017.02.28 14:58:18.941 [DubboServerHandler-172.17.246.184:18087-thread-7] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==    Updates: 1
+2017.02.28 14:58:21.130 [DubboServerHandler-172.17.246.184:18087-thread-12] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:35] - org.ibase4j.provider.sys.SysUserProviderImpl.queryBeans({})
+2017.02.28 14:58:21.130 [DubboServerHandler-172.17.246.184:18087-thread-12] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:40] - read
+2017.02.28 14:58:21.428 [DubboServerHandler-172.17.246.184:18087-thread-12] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ FROM sys_user ORDER BY id_ DESC LIMIT 0,10 
+2017.02.28 14:58:21.428 [DubboServerHandler-172.17.246.184:18087-thread-12] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 
+2017.02.28 14:58:21.567 [DubboServerHandler-172.17.246.184:18087-thread-12] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 2
+2017.02.28 14:58:21.837 [DubboServerHandler-172.17.246.184:18087-thread-12] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ AS id,dept_name AS deptName,parent_id AS parentId,sort_no AS sortNo,leaf_ AS leaf,enable_ AS `enable`,remark_ AS remark,create_by AS createBy,create_time AS createTime,update_by AS updateBy,update_time AS updateTime FROM sys_dept WHERE id_=? 
+2017.02.28 14:58:21.838 [DubboServerHandler-172.17.246.184:18087-thread-12] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 1(Long)
+2017.02.28 14:58:21.984 [DubboServerHandler-172.17.246.184:18087-thread-12] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:58:28.662 [DubboServerHandler-172.17.246.184:18087-thread-15] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:35] - org.ibase4j.provider.sys.SysDeptProviderImpl.query({})
+2017.02.28 14:58:28.662 [DubboServerHandler-172.17.246.184:18087-thread-15] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:40] - read
+2017.02.28 14:58:28.881 [DubboServerHandler-172.17.246.184:18087-thread-15] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: select id_ from sys_dept LIMIT 0,10 
+2017.02.28 14:58:28.882 [DubboServerHandler-172.17.246.184:18087-thread-15] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 
+2017.02.28 14:58:28.985 [DubboServerHandler-172.17.246.184:18087-thread-15] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:58:44.149 [DubboServerHandler-172.17.246.184:18087-thread-18] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:35] - org.ibase4j.provider.sys.SysMenuProviderImpl.query({})
+2017.02.28 14:58:44.149 [DubboServerHandler-172.17.246.184:18087-thread-18] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:40] - read
+2017.02.28 14:58:44.382 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: select id_ from sys_menu LIMIT 0,10 
+2017.02.28 14:58:44.383 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 
+2017.02.28 14:58:44.487 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 10
+2017.02.28 14:58:44.493 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ AS id,menu_name AS menuName,menu_type AS menuType,parent_id AS parentId,iconcls_ AS iconcls,request_ AS request,expand_ AS expand,sort_no AS sortNo,is_show AS isShow,permission_ AS permission,enable_ AS `enable`,remark_ AS remark,create_by AS createBy,create_time AS createTime,update_by AS updateBy,update_time AS updateTime FROM sys_menu WHERE id_=? 
+2017.02.28 14:58:44.494 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 1(Long)
+2017.02.28 14:58:44.603 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:58:44.608 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ AS id,menu_name AS menuName,menu_type AS menuType,parent_id AS parentId,iconcls_ AS iconcls,request_ AS request,expand_ AS expand,sort_no AS sortNo,is_show AS isShow,permission_ AS permission,enable_ AS `enable`,remark_ AS remark,create_by AS createBy,create_time AS createTime,update_by AS updateBy,update_time AS updateTime FROM sys_menu WHERE id_=? 
+2017.02.28 14:58:44.608 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 2(Long)
+2017.02.28 14:58:44.714 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:58:44.719 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ AS id,menu_name AS menuName,menu_type AS menuType,parent_id AS parentId,iconcls_ AS iconcls,request_ AS request,expand_ AS expand,sort_no AS sortNo,is_show AS isShow,permission_ AS permission,enable_ AS `enable`,remark_ AS remark,create_by AS createBy,create_time AS createTime,update_by AS updateBy,update_time AS updateTime FROM sys_menu WHERE id_=? 
+2017.02.28 14:58:44.720 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 3(Long)
+2017.02.28 14:58:44.825 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:58:44.831 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ AS id,menu_name AS menuName,menu_type AS menuType,parent_id AS parentId,iconcls_ AS iconcls,request_ AS request,expand_ AS expand,sort_no AS sortNo,is_show AS isShow,permission_ AS permission,enable_ AS `enable`,remark_ AS remark,create_by AS createBy,create_time AS createTime,update_by AS updateBy,update_time AS updateTime FROM sys_menu WHERE id_=? 
+2017.02.28 14:58:44.832 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 4(Long)
+2017.02.28 14:58:44.935 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:58:44.941 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ AS id,menu_name AS menuName,menu_type AS menuType,parent_id AS parentId,iconcls_ AS iconcls,request_ AS request,expand_ AS expand,sort_no AS sortNo,is_show AS isShow,permission_ AS permission,enable_ AS `enable`,remark_ AS remark,create_by AS createBy,create_time AS createTime,update_by AS updateBy,update_time AS updateTime FROM sys_menu WHERE id_=? 
+2017.02.28 14:58:44.942 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 5(Long)
+2017.02.28 14:58:45.047 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:58:45.054 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ AS id,menu_name AS menuName,menu_type AS menuType,parent_id AS parentId,iconcls_ AS iconcls,request_ AS request,expand_ AS expand,sort_no AS sortNo,is_show AS isShow,permission_ AS permission,enable_ AS `enable`,remark_ AS remark,create_by AS createBy,create_time AS createTime,update_by AS updateBy,update_time AS updateTime FROM sys_menu WHERE id_=? 
+2017.02.28 14:58:45.055 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 6(Long)
+2017.02.28 14:58:45.165 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:58:45.170 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ AS id,menu_name AS menuName,menu_type AS menuType,parent_id AS parentId,iconcls_ AS iconcls,request_ AS request,expand_ AS expand,sort_no AS sortNo,is_show AS isShow,permission_ AS permission,enable_ AS `enable`,remark_ AS remark,create_by AS createBy,create_time AS createTime,update_by AS updateBy,update_time AS updateTime FROM sys_menu WHERE id_=? 
+2017.02.28 14:58:45.171 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 7(Long)
+2017.02.28 14:58:45.276 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:58:45.282 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ AS id,menu_name AS menuName,menu_type AS menuType,parent_id AS parentId,iconcls_ AS iconcls,request_ AS request,expand_ AS expand,sort_no AS sortNo,is_show AS isShow,permission_ AS permission,enable_ AS `enable`,remark_ AS remark,create_by AS createBy,create_time AS createTime,update_by AS updateBy,update_time AS updateTime FROM sys_menu WHERE id_=? 
+2017.02.28 14:58:45.283 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 8(Long)
+2017.02.28 14:58:45.388 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:58:45.393 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ AS id,menu_name AS menuName,menu_type AS menuType,parent_id AS parentId,iconcls_ AS iconcls,request_ AS request,expand_ AS expand,sort_no AS sortNo,is_show AS isShow,permission_ AS permission,enable_ AS `enable`,remark_ AS remark,create_by AS createBy,create_time AS createTime,update_by AS updateBy,update_time AS updateTime FROM sys_menu WHERE id_=? 
+2017.02.28 14:58:45.394 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 9(Long)
+2017.02.28 14:58:45.498 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:58:45.503 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ AS id,menu_name AS menuName,menu_type AS menuType,parent_id AS parentId,iconcls_ AS iconcls,request_ AS request,expand_ AS expand,sort_no AS sortNo,is_show AS isShow,permission_ AS permission,enable_ AS `enable`,remark_ AS remark,create_by AS createBy,create_time AS createTime,update_by AS updateBy,update_time AS updateTime FROM sys_menu WHERE id_=? 
+2017.02.28 14:58:45.503 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 12(Long)
+2017.02.28 14:58:45.608 [DubboServerHandler-172.17.246.184:18087-thread-18] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:58:53.479 [DubboServerHandler-172.17.246.184:18087-thread-23] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:35] - org.ibase4j.provider.sys.SysRoleProviderImpl.queryBean({})
+2017.02.28 14:58:53.479 [DubboServerHandler-172.17.246.184:18087-thread-23] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:40] - read
+2017.02.28 14:58:53.708 [DubboServerHandler-172.17.246.184:18087-thread-23] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: select id_ from sys_role LIMIT 0,10 
+2017.02.28 14:58:53.709 [DubboServerHandler-172.17.246.184:18087-thread-23] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 
+2017.02.28 14:58:53.812 [DubboServerHandler-172.17.246.184:18087-thread-23] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:58:53.825 [DubboServerHandler-172.17.246.184:18087-thread-23] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: select CONCAT(menu_name,'(', GROUP_CONCAT(code_text), ')') from sys_role_menu rm join sys_menu m on rm.menu_id=m.id_ join sys_dic d on rm.permission_=d.code_ join sys_dic_index di on d.index_id=di.id_ and di.key_='CRUD' WHERE rm.role_id=? group by menu_name order by menu_id 
+2017.02.28 14:58:53.831 [DubboServerHandler-172.17.246.184:18087-thread-23] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 1(Long)
+2017.02.28 14:58:53.958 [DubboServerHandler-172.17.246.184:18087-thread-23] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 15
+2017.02.28 14:59:00.957 [DubboServerHandler-172.17.246.184:18087-thread-26] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:35] - org.ibase4j.provider.sys.SysSessionProviderImpl.query({})
+2017.02.28 14:59:00.957 [DubboServerHandler-172.17.246.184:18087-thread-26] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:40] - read
+2017.02.28 14:59:01.167 [DubboServerHandler-172.17.246.184:18087-thread-26] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: select id_ from sys_session LIMIT 0,10 
+2017.02.28 14:59:01.168 [DubboServerHandler-172.17.246.184:18087-thread-26] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 
+2017.02.28 14:59:01.273 [DubboServerHandler-172.17.246.184:18087-thread-26] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:59:01.276 [DubboServerHandler-172.17.246.184:18087-thread-26] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ AS id,session_id AS sessionId,account_ AS account,ip_ AS ip,start_time AS startTime,enable_ AS `enable`,remark_ AS remark,create_by AS createBy,create_time AS createTime,update_by AS updateBy,update_time AS updateTime FROM sys_session WHERE id_=? 
+2017.02.28 14:59:01.277 [DubboServerHandler-172.17.246.184:18087-thread-26] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 836470562173947904(Long)
+2017.02.28 14:59:01.385 [DubboServerHandler-172.17.246.184:18087-thread-26] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 1
+2017.02.28 14:59:09.582 [DubboServerHandler-172.17.246.184:18087-thread-29] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:35] - org.ibase4j.provider.sys.SysDicProviderImpl.queryDicIndex({})
+2017.02.28 14:59:09.582 [DubboServerHandler-172.17.246.184:18087-thread-29] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:40] - read
+2017.02.28 14:59:09.829 [DubboServerHandler-172.17.246.184:18087-thread-29] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: select id_ from sys_dic_index LIMIT 0,10 
+2017.02.28 14:59:09.830 [DubboServerHandler-172.17.246.184:18087-thread-29] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 
+2017.02.28 14:59:09.934 [DubboServerHandler-172.17.246.184:18087-thread-29] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 10
+2017.02.28 14:59:13.853 [DubboServerHandler-172.17.246.184:18087-thread-32] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:35] - org.ibase4j.provider.sys.SysParamProviderImpl.query({})
+2017.02.28 14:59:13.853 [DubboServerHandler-172.17.246.184:18087-thread-32] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:40] - read
+2017.02.28 14:59:14.188 [DubboServerHandler-172.17.246.184:18087-thread-32] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: select id_ from sys_param LIMIT 0,10 
+2017.02.28 14:59:14.188 [DubboServerHandler-172.17.246.184:18087-thread-32] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 
+2017.02.28 14:59:14.293 [DubboServerHandler-172.17.246.184:18087-thread-32] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 0
+2017.02.28 14:59:19.282 [DubboServerHandler-172.17.246.184:18087-thread-35] ERROR [org.ibase4j.core.support.scheduler.SchedulerManager.getAllJobDetail:103] - Try to load All JobDetail cause error : org.quartz.JobPersistenceException: Couldn't obtain job names: Table 'ibase4j.QRTZ_JOB_DETAILS' doesn't exist
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.getJobNames(JobStoreSupport.java:1889) ~[quartz-2.2.3.jar:?]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$20.execute(JobStoreSupport.java:1877) ~[quartz-2.2.3.jar:?]
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.executeInLock(JobStoreCMT.java:245) ~[quartz-2.2.3.jar:?]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeWithoutLock(JobStoreSupport.java:3739) ~[quartz-2.2.3.jar:?]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.getJobKeys(JobStoreSupport.java:1874) ~[quartz-2.2.3.jar:?]
+	at org.quartz.core.QuartzScheduler.getJobKeys(QuartzScheduler.java:1464) ~[quartz-2.2.3.jar:?]
+	at org.quartz.impl.StdScheduler.getJobKeys(StdScheduler.java:470) ~[quartz-2.2.3.jar:?]
+	at org.ibase4j.core.support.scheduler.SchedulerManager.getAllJobDetail(SchedulerManager.java:71) ~[iBase4J-Common-1.0.0.jar:?]
+	at org.ibase4j.core.support.scheduler.SchedulerService.getAllTaskDetail(SchedulerService.java:30) ~[iBase4J-Common-1.0.0.jar:?]
+	at org.ibase4j.core.support.scheduler.SchedulerService$$FastClassBySpringCGLIB$$5c49ec93.invoke(<generated>) ~[iBase4J-Common-1.0.0.jar:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.0.RELEASE.jar:4.3.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:651) ~[spring-aop-4.3.0.RELEASE.jar:4.3.0.RELEASE]
+	at org.ibase4j.provider.scheduler.SchedulerProviderImpl$$EnhancerBySpringCGLIB$$a7e067c4.getAllTaskDetail(<generated>) ~[SchedulerProviderImpl.class:?]
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java) ~[?:2.5.3]
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:60) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:112) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:108) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82) ~[dubbo-2.5.3.jar:2.5.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [?:1.7.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [?:1.7.0_51]
+	at java.lang.Thread.run(Thread.java:744) [?:1.7.0_51]
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'ibase4j.QRTZ_JOB_DETAILS' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor62.newInstance(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.7.0_51]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[?:1.7.0_51]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.Util.getInstance(Util.java:387) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1962) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:2714) ~[druid-1.0.27.jar:1.0.27]
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeQuery(FilterEventAdapter.java:465) ~[druid-1.0.27.jar:1.0.27]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:2711) ~[druid-1.0.27.jar:1.0.27]
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.executeQuery(PreparedStatementProxyImpl.java:145) ~[druid-1.0.27.jar:1.0.27]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeQuery(DruidPooledPreparedStatement.java:227) ~[druid-1.0.27.jar:1.0.27]
+	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.selectJobsInGroup(StdJDBCDelegate.java:980) ~[quartz-2.2.3.jar:?]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.getJobNames(JobStoreSupport.java:1887) ~[quartz-2.2.3.jar:?]
+	... 40 more
+
+2017.02.28 14:59:21.546 [DubboServerHandler-172.17.246.184:18087-thread-38] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: select id_ from task_fire_log LIMIT 0,10 
+2017.02.28 14:59:21.547 [DubboServerHandler-172.17.246.184:18087-thread-38] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 
+2017.02.28 14:59:21.651 [DubboServerHandler-172.17.246.184:18087-thread-38] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 0
+2017.02.28 14:59:26.424 [DubboServerHandler-172.17.246.184:18087-thread-41] ERROR [org.ibase4j.core.support.scheduler.SchedulerManager.getAllJobDetail:103] - Try to load All JobDetail cause error : org.quartz.JobPersistenceException: Couldn't obtain job names: Table 'ibase4j.QRTZ_JOB_DETAILS' doesn't exist
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.getJobNames(JobStoreSupport.java:1889) ~[quartz-2.2.3.jar:?]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$20.execute(JobStoreSupport.java:1877) ~[quartz-2.2.3.jar:?]
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.executeInLock(JobStoreCMT.java:245) ~[quartz-2.2.3.jar:?]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeWithoutLock(JobStoreSupport.java:3739) ~[quartz-2.2.3.jar:?]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.getJobKeys(JobStoreSupport.java:1874) ~[quartz-2.2.3.jar:?]
+	at org.quartz.core.QuartzScheduler.getJobKeys(QuartzScheduler.java:1464) ~[quartz-2.2.3.jar:?]
+	at org.quartz.impl.StdScheduler.getJobKeys(StdScheduler.java:470) ~[quartz-2.2.3.jar:?]
+	at org.ibase4j.core.support.scheduler.SchedulerManager.getAllJobDetail(SchedulerManager.java:71) ~[iBase4J-Common-1.0.0.jar:?]
+	at org.ibase4j.core.support.scheduler.SchedulerService.getAllTaskDetail(SchedulerService.java:30) ~[iBase4J-Common-1.0.0.jar:?]
+	at org.ibase4j.core.support.scheduler.SchedulerService$$FastClassBySpringCGLIB$$5c49ec93.invoke(<generated>) ~[iBase4J-Common-1.0.0.jar:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.0.RELEASE.jar:4.3.0.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:651) ~[spring-aop-4.3.0.RELEASE.jar:4.3.0.RELEASE]
+	at org.ibase4j.provider.scheduler.SchedulerProviderImpl$$EnhancerBySpringCGLIB$$a7e067c4.getAllTaskDetail(<generated>) ~[SchedulerProviderImpl.class:?]
+	at com.alibaba.dubbo.common.bytecode.Wrapper1.invokeMethod(Wrapper1.java) ~[?:2.5.3]
+	at com.alibaba.dubbo.rpc.proxy.javassist.JavassistProxyFactory$1.doInvoke(JavassistProxyFactory.java:46) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.proxy.AbstractProxyInvoker.invoke(AbstractProxyInvoker.java:72) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.filter.ExceptionFilter.invoke(ExceptionFilter.java:64) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.filter.TimeoutFilter.invoke(TimeoutFilter.java:42) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.TraceFilter.invoke(TraceFilter.java:78) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.filter.ContextFilter.invoke(ContextFilter.java:60) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.filter.GenericFilter.invoke(GenericFilter.java:112) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.filter.ClassLoaderFilter.invoke(ClassLoaderFilter.java:38) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.filter.EchoFilter.invoke(EchoFilter.java:38) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.reply(DubboProtocol.java:108) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.handleRequest(HeaderExchangeHandler.java:84) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:170) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82) ~[dubbo-2.5.3.jar:2.5.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [?:1.7.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [?:1.7.0_51]
+	at java.lang.Thread.run(Thread.java:744) [?:1.7.0_51]
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'ibase4j.QRTZ_JOB_DETAILS' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor62.newInstance(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.7.0_51]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[?:1.7.0_51]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.Util.getInstance(Util.java:387) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1962) ~[mysql-connector-java-5.1.39.jar:5.1.39]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:2714) ~[druid-1.0.27.jar:1.0.27]
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeQuery(FilterEventAdapter.java:465) ~[druid-1.0.27.jar:1.0.27]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:2711) ~[druid-1.0.27.jar:1.0.27]
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.executeQuery(PreparedStatementProxyImpl.java:145) ~[druid-1.0.27.jar:1.0.27]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeQuery(DruidPooledPreparedStatement.java:227) ~[druid-1.0.27.jar:1.0.27]
+	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.selectJobsInGroup(StdJDBCDelegate.java:980) ~[quartz-2.2.3.jar:?]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.getJobNames(JobStoreSupport.java:1887) ~[quartz-2.2.3.jar:?]
+	... 40 more
+
+2017.02.28 14:59:30.138 [DubboServerHandler-172.17.246.184:18087-thread-44] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:35] - org.ibase4j.provider.sys.SysUserProviderImpl.queryBeans({})
+2017.02.28 14:59:30.138 [DubboServerHandler-172.17.246.184:18087-thread-44] INFO [org.ibase4j.core.aspect.DataSourceAspect.before:40] - read
+2017.02.28 14:59:30.351 [DubboServerHandler-172.17.246.184:18087-thread-44] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==>  Preparing: SELECT id_ FROM sys_user ORDER BY id_ DESC LIMIT 0,10 
+2017.02.28 14:59:30.352 [DubboServerHandler-172.17.246.184:18087-thread-44] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - ==> Parameters: 
+2017.02.28 14:59:30.454 [DubboServerHandler-172.17.246.184:18087-thread-44] DEBUG [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug:145] - <==      Total: 2
